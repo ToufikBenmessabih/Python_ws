@@ -12,9 +12,9 @@
      - **`speed_interp`** : la vitesse pour une distance donnée.  
    - `fill_value="extrapolate"` permet l'estimation hors des bornes initiales.
 
-3. **Calcul à 31 mètres**  
-   - `distance_interp(31)` : estime le **temps**.  
-   - `speed_interp(31)` : estime la **vitesse**.
+3. **Calcul à 'n' mètres**  
+   - `distance_interp(n)` : estime le **temps**.  
+   - `speed_interp(n)` : estime la **vitesse**.
 
 ## Résultats  
-Obtenez temps et vitesse pour toute distance spécifiée (ex. : 31 mètres).
+Obtenez temps et vitesse pour toute distance spécifiée 'n' (ex. : 31 mètres).
